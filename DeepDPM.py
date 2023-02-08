@@ -394,8 +394,8 @@ def train_cluster_net():
         logger = DummyLogger()
     else:
         logger = NeptuneLogger(
-                api_key='your_API_token',
-                project_name='your_project_name',
+                api_key='eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIxMjZjYjg1ZC1iMjgwLTRiYjYtYTI4MC1lYWQ3MDliMjM2N2QifQ==',
+                project_name='moenking3/DeepDPM',
                 experiment_name=args.exp_name,
                 params=vars(args),
                 tags=tags
